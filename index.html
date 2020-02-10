@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Code Breaker by SeanMcP</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="app">
+            <header>
+                <h1>Code Breaker</h1>
+            </header>
+            <main>
+                <p>This is the main content</p>
+                <form id="setup">
+                    <h2>Setup</h2>
+                    <label>Select a word or phrase:<br />
+                        <input name="phrase" />
+                    </label>
+                    <button>Play</button>
+                </form>
+                <form id="play" hidden>
+                    <h2>Play</h2>
+                    <div id="incorrect_display"></div>
+                    <div id="phrase_display"></div>
+                    <label>Guess a letter:<br />
+                        <input name="guess" />
+                    </label>
+                    <button>Guess</button>
+                </form>
+            </main>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
